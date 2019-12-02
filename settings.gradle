@@ -1,2 +1,2 @@
-include ':app', ':ads'
+include ':app'
 rootProject.name='captain-ads'
