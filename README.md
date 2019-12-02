@@ -1,6 +1,6 @@
 # Captain Ads
 
-This is an Android Ads rotator! (draft version)
+This is an Android Ads rotator! (Google, Facebook, etc)
 
 ## Features
 
