@@ -11,7 +11,7 @@ This is an Android ads rotator! (Google, Facebook, etc)
 
  ``` gradle
 dependencies {
-    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+    implementation 'com.cafewill.ads:captain-ads:1.0.9'
  }
  ```
 
