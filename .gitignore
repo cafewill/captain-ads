@@ -6,6 +6,7 @@
 *.iml
 
 /.gradle
+/.idea/.name
 /.idea/caches
 /.idea/libraries
 /.idea/vcs.xml
