@@ -1,2 +1,2 @@
 include ':app', ':ads'
-rootProject.name='allo-cafewill-ads'
+rootProject.name='captain-ads'
