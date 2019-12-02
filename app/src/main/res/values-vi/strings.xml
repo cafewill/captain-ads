@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Captain Ads</string>
+    <!-- message -->
+    <string name="message_quitback">Nhấn một lần nữa để thoát</string>
+    <string name="message_interstitial_available">Quảng cáo xen kẽ có sẵn</string>
+    <string name="message_interstitial_unavailable">Quảng cáo xen kẽ không có sẵn</string>
+</resources>

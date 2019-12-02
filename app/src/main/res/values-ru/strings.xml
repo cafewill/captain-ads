@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Captain Ads</string>
+    <!-- message -->
+    <string name="message_quitback">Нажмите еще раз, чтобы выйти</string>
+    <string name="message_interstitial_available">Доступные промежуточные объявления</string>
+    <string name="message_interstitial_unavailable">Недоступные промежуточные объявления</string>
+</resources>

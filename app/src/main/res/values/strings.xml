@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Captain Ads</string>
+    <!-- common -->
+    <string name="list_of_banner" translatable="false">google: ca-app-pub-3940256099942544~3347511713 + ca-app-pub-3940256099942544/6300978111, facebook: 1189984751202078_1189985447868675</string>
+    <string name="list_of_interstitial" translatable="false">google: ca-app-pub-3940256099942544~3347511713 + ca-app-pub-3940256099942544/1033173712, facebook: 1189984751202078_1189988777868342</string>
+    <string name="button_settings" translatable="false">App Settings</string>
+    <string name="button_show_banner" translatable="false">Show Banner Ads</string>
+    <string name="button_rotate_banner" translatable="false">Rotate Banner Ads</string>
+    <string name="button_show_interstitial" translatable="false">Show Interstitial Ads</string>
+    <string name="button_rotate_interstitial" translatable="false">Rotate Interstitial Ads</string>
+    <!-- message -->
+    <string name="message_quitback">Press once more to exit</string>
+    <string name="message_interstitial_available">Available interstitial Ads</string>
+    <string name="message_interstitial_unavailable">Unavailable interstitial Ads</string>
+</resources>

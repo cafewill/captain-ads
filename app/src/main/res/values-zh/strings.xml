@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Captain Ads</string>
+    <!-- message -->
+    <string name="message_quitback">再按一次退出</string>
+    <string name="message_interstitial_available">Available interstitial Ads</string>
+    <string name="message_interstitial_unavailable">可用的非页内广告</string>
+</resources>

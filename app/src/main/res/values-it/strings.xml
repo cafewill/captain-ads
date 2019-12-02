@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Captain Ads</string>
+    <!-- message -->
+    <string name="message_quitback">Premere ancora una volta per uscire</string>
+    <string name="message_interstitial_available">Annunci interstiziali disponibili</string>
+    <string name="message_interstitial_unavailable">Annunci interstiziali non disponibili</string>
+</resources>
