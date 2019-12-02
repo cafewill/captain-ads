@@ -6,8 +6,8 @@ android {
         applicationId "com.cafewill.ads"
         minSdkVersion 19
         targetSdkVersion 28
-        versionCode 20191130
-        versionName "1.0.1"
+        versionCode 20191102
+        versionName "1.0.0"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

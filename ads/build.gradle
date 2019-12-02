@@ -1,15 +1,15 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.cafewill'
-version = '1.0.1'
+version = '1.0.0'
 
 android {
     compileSdkVersion 28
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 28
-        versionCode 20191130
-        versionName "1.0.1"
+        versionCode 20191202
+        versionName "1.0.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
     }
