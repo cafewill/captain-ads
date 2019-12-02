@@ -13,10 +13,10 @@ public class Allo
 
     //////////////////////////////////////////////////
     public static final boolean DEBUG_ADMOB_TEST_DEVICE = true;
-    public static final String DEBUG_ADMOB_TEST_DEVICE_HASH = "https://developers.google.com/admob/android/test-ads";
+    public static final String DEBUG_ADMOB_TEST_DEVICE_HASH = "refer to : https://developers.google.com/admob/android/test-ads";
     //////////////////////////////////////////////////
     public static final boolean DEBUG_FACEBOOK_TEST_DEVICE = true;
-    public static final String DEBUG_FACEBOOK_TEST_DEVICE_HASH = "https://business.facebook.com/pub/testing";
+    public static final String DEBUG_FACEBOOK_TEST_DEVICE_HASH = "refer to : https://business.facebook.com/pub/testing";
     //////////////////////////////////////////////////
 
     public static final String ECHO = "cube";
