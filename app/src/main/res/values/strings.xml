@@ -10,6 +10,6 @@
     <string name="button_rotate_interstitial" translatable="false">Rotate Interstitial Ads</string>
     <!-- message -->
     <string name="message_quitback">Press once more to exit</string>
-    <string name="message_interstitial_available">Available interstitial Ads</string>
-    <string name="message_interstitial_unavailable">Unavailable interstitial Ads</string>
+    <string name="message_interstitial_available">Available interstitial ads</string>
+    <string name="message_interstitial_unavailable">Unavailable interstitial ads</string>
 </resources>
