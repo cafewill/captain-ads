@@ -9,10 +9,16 @@ This is an Android ads rotator! (Google, Facebook, etc)
 
 ## Gradle Dependency
 
- ``` gradle
+ ``` build.gradle (project)
+repositories {
+    (... ...)
+    maven { url 'https://jitpack.io' }
+} 
+ ```
+ ``` build.gradle (module: app)
 dependencies {
     implementation 'com.cafewill.ads:captain-ads:1.0.9'
- }
+}
  ```
 
 ## Usage
