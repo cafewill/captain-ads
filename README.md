@@ -11,7 +11,6 @@ This is an Android ads rotator! (Google, Facebook, etc)
 
  ``` build.gradle (project)
 repositories {
-    (... ...)
     maven { url 'https://jitpack.io' }
 } 
  ```
