@@ -20,9 +20,9 @@ dependencies {
 }
  ```
 
-## Usage
+## Screenshots
 
-Refer to [sample code](https://github.com/cafewill/captain-ads/tree/master/app/src/main/java/com/cafewill/sample)
+
 
 ## Thanks to
 
