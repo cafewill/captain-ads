@@ -17,8 +17,9 @@
 /.idea/assetWizardSettings.xml
 
 /build
-# /gradle
+/gradle/*
 /captures
+/gradlew
 /local.properties
 
 # Compiled class file
