@@ -21,6 +21,7 @@
 /captures
 /gradlew
 ./gradle
+./gradle/*
 ./gradlew
 /local.properties
 
