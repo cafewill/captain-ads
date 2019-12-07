@@ -20,6 +20,8 @@
 /gradle/*
 /captures
 /gradlew
+./gradle
+./gradlew
 /local.properties
 
 # Compiled class file
