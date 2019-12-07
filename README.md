@@ -7,7 +7,7 @@ This is an Android ads rotator! (Google, Facebook, etc)
 * Banner ads rotation.
 * Interstitial ads rotation.
 
-## Gradle Dependency
+## Gradle Settings
 
  ``` build.gradle (project)
 repositories {
@@ -28,7 +28,7 @@ dependencies {
 ![](screenshots/04.png)
 
 
-## Thanks to
+## Thanks To
 
 * https://admob.com
 * https://facebook.com/audiencenetwork
