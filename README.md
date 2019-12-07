@@ -25,7 +25,6 @@ dependencies {
 ![](screenshots/01.png)
 ![](screenshots/02.png)
 ![](screenshots/03.png)
-![](screenshots/04.png)
 ![](screenshots/05.png)
 
 
