@@ -30,5 +30,5 @@ dependencies {
 
 ## Thanks To
 
-* https://admob.com
+* https://admob.google.com
 * https://facebook.com/audiencenetwork
