@@ -188,12 +188,12 @@ public class MainActivity extends AppCompatActivity
             bannerStatus = false;
             if (null != banner) bannerLayout.removeView (banner);
 
-            Rotator ads = new Rotator ();
-            ads.setAdmobTestStatus (Allo.DEBUG_ADMOB_TEST_DEVICE);
-            ads.setAdmobTestDeviceHash (Allo.DEBUG_ADMOB_TEST_DEVICE_HASH);
-            ads.setFacebookTestStatus (Allo.DEBUG_FACEBOOK_TEST_DEVICE);
-            ads.setFacebookTestDeviceHash (Allo.DEBUG_FACEBOOK_TEST_DEVICE_HASH);
-            ads.setListener (new Rotator.Listener ()
+            Rotator rotator = new Rotator ();
+            rotator.setAdmobTestStatus (Allo.DEBUG_ADMOB_TEST_DEVICE);
+            rotator.setAdmobTestDeviceHash (Allo.DEBUG_ADMOB_TEST_DEVICE_HASH);
+            rotator.setFacebookTestStatus (Allo.DEBUG_FACEBOOK_TEST_DEVICE);
+            rotator.setFacebookTestDeviceHash (Allo.DEBUG_FACEBOOK_TEST_DEVICE_HASH);
+            rotator.setListener (new Rotator.Listener ()
             {
                 @Override
                 public void onLoaded ()
@@ -252,7 +252,7 @@ public class MainActivity extends AppCompatActivity
 
             Allo.i ("banner front status : [" + frontStatus + "][" + frontAdid + "][" + frontUnit + "][" + frontExtra + "][" + frontList + "]");
 
-            if (frontStatus) { banner = ads.getBanner (context, frontType, frontAdid, frontUnit); } else { hideBanner (); }
+            if (frontStatus) { banner = rotator.getBanner (context, frontType, frontAdid, frontUnit); } else { hideBanner (); }
         } catch (Exception e) { e.printStackTrace (); }
     }
 
@@ -327,12 +327,12 @@ public class MainActivity extends AppCompatActivity
             interstitialStatus = false;
             if (null != interstitial) interstitial = null;
 
-            Rotator ads = new Rotator ();
-            ads.setAdmobTestStatus (Allo.DEBUG_ADMOB_TEST_DEVICE);
-            ads.setAdmobTestDeviceHash (Allo.DEBUG_ADMOB_TEST_DEVICE_HASH);
-            ads.setFacebookTestStatus (Allo.DEBUG_FACEBOOK_TEST_DEVICE);
-            ads.setFacebookTestDeviceHash (Allo.DEBUG_FACEBOOK_TEST_DEVICE_HASH);
-            ads.setListener (new Rotator.Listener ()
+            Rotator rotator = new Rotator ();
+            rotator.setAdmobTestStatus (Allo.DEBUG_ADMOB_TEST_DEVICE);
+            rotator.setAdmobTestDeviceHash (Allo.DEBUG_ADMOB_TEST_DEVICE_HASH);
+            rotator.setFacebookTestStatus (Allo.DEBUG_FACEBOOK_TEST_DEVICE);
+            rotator.setFacebookTestDeviceHash (Allo.DEBUG_FACEBOOK_TEST_DEVICE_HASH);
+            rotator.setListener (new Rotator.Listener ()
             {
                 @Override
                 public void onLoaded ()
@@ -394,7 +394,7 @@ public class MainActivity extends AppCompatActivity
 
             Allo.i ("interstitial front status : [" + frontStatus + "][" + frontAdid + "][" + frontUnit + "][" + frontExtra + "][" + frontList + "]");
 
-            if (frontStatus) { interstitial = ads.getInterstitial (context, frontType, frontAdid, frontUnit); }
+            if (frontStatus) { interstitial = rotator.getInterstitial (context, frontType, frontAdid, frontUnit); }
         } catch (Exception e) { e.printStackTrace (); }
     }
 
